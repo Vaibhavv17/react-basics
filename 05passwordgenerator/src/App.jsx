@@ -63,7 +63,7 @@ const passwordRef = useRef(null)
           id="numberInput"
           onChange={() => {
               setNumberAllowed((prev) => !prev);
-          }}
+            }}
       />
       <label htmlFor="numberInput">Numbers</label>
       </div>
